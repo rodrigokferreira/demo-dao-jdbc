@@ -66,18 +66,23 @@ API Endpoints
 Department API
 
 Insert Department: Inserts a new department into the database.
+
 departmentDao.insert(new Department(null, "Finance"));
 
 Update Department: Updates an existing department.
+
 departmentDao.update(new Department(1, "HR"));
 
 Delete Department: Deletes a department by its ID.
+
 departmentDao.deleteById(1);
 
 Find Department by ID: Fetches department details by ID.
+
 Department dep = departmentDao.findById(1);
 
 Find All Departments: Fetches all departments from the database.
+
 List<Department> list = departmentDao.findAll();
 
 Project Structure
