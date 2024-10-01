@@ -111,8 +111,13 @@ src/
     ├── DbException.java # Custom exception for database errors
     └── DbIntegrityException.java # Custom exception for integrity constraint violations
 
-Running the Application
-After setting up the project, run the Program.java file from your IDE to execute the Department and Seller management functionalities.
+## Running the Application
 
-License
+After setting up the project, run the `Program.java` file from your IDE to execute the Department and Seller management functionalities.
+
+---
+
+## License
+
 This project is open-source and free to use under the MIT License.
+
